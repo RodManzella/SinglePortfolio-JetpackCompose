@@ -1,4 +1,4 @@
-package com.example.singleportfolio
+package com.example.dugs_jetpackcompose
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,17 +10,16 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.singleportfolio.navigation.AppNavigation
-import com.example.singleportfolio.ui.theme.SinglePortfolioTheme
+import com.example.dugs_jetpackcompose.navigation.AppNavigation
+import com.example.dugs_jetpackcompose.ui.theme.DugsJetpackComposeTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            SinglePortfolioTheme {
+            DugsJetpackComposeTheme {
                 AppNavigation()
             }
         }
     }
 }
-

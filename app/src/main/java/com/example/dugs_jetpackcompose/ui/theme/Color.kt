@@ -1,4 +1,4 @@
-package com.example.singleportfolio.ui.theme
+package com.example.dugs_jetpackcompose.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

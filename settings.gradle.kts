@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SinglePortfolio"
+rootProject.name = "Dugs-JetpackCompose"
 include(":app")
  

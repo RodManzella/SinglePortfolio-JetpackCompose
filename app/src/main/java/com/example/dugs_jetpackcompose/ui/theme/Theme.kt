@@ -1,4 +1,4 @@
-package com.example.singleportfolio.ui.theme
+package com.example.dugs_jetpackcompose.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -38,7 +38,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun SinglePortfolioTheme(
+fun DugsJetpackComposeTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,

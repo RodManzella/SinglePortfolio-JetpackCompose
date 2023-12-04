@@ -1,4 +1,4 @@
-package com.example.singleportfolio
+package com.example.dugs_jetpackcompose
 
 import org.junit.Test
 

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.singleportfolio"
-    compileSdk = 33
+    namespace = "com.example.dugs_jetpackcompose"
+    compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.singleportfolio"
+        applicationId = "com.example.dugs_jetpackcompose"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
@@ -66,4 +66,6 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    implementation("androidx.navigation:navigation-compose:2.7.5")
 }
